@@ -1,0 +1,20 @@
+{
+  "name": "Test",
+  "plural": "tests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "hidden": [ "id" ],
+  "properties": {
+    "amount": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

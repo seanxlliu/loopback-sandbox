@@ -10,6 +10,8 @@
     "password": "",
     "name": "mysql",
     "connector": "mysql",
-    "user": "root"
+    "user": "root",
+    "connectionLimit": 200,
+    "debug": true
   }
 }
